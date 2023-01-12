@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+   * {
+box-sizing: border-box;
+}    
+
+html, body, #root, .App {
+  height: 100% !important;
+
+
+}
+
+body, html {
+  padding-top: 40px !important;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow:hidden;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#brand {
+  height:50px;
+}
+
+
+
+#homeBg {
+  background-image:url('./assets/images/library-interior-empty-room-reading-with-books-wooden-shelves_33099-1722.webp');
+  background-size:cover;
+  background-repeat: no-repeat;
+
+}
+
+#dark {
+  height:240px;
+}
+
+nav {
+  height:80px;
+  padding-top: 0px !important;
+}
+
+.color {
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+
+}
+
+.height {
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  min-height: 100%;
+
+}
+
+.heightFixed {
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  min-height: 80vh;
+
+}
+
+.paddingBot {
+  padding-bottom: 40px !important;
+}
+
+.rounded {
+  border-radius: 20px !important;
+}
+
+
+.modal-dialogue {
+  margin-left:auto !important;
+  margin-right:auto !important;
+
+}
+
+.transparentBg {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.staticSize {
+  height:210px !important;
+  width:200px !important;
+  margin:0px !important;
+  padding:0px !important;
+ overflow:auto;
+}
+
+.btn-circle {
+  width: 40px;
+  height: 40px;
+  padding: 7px 10px;
+  border-radius: 25px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.hide-bottom {
+  max-height: 300px;
+  overflow:hidden;
+}
+
+.extra-margin {
+  margin-top: 100px !important;
+}
+
+.no-underline {
+  text-decoration: none !important;
+}
+
+@media (max-width: 800px) {
+  .small-btn {
+    width:140px;
+  }
+  .wide-card {
+    width:80% !important;
+    height:50% !important;
+  }
+
+}
+ @media (min-width: 800px) {
+  .large-btn {
+    width:250px;
+  }
+  .card-sm {
+    width:25%;
+  }
+} 
+
+.hover:hover {
+  cursor:pointer;
+}
+
+
